@@ -1,0 +1,17 @@
+{
+  "name": "yerel-asistan",
+  "version": "1.0.0",
+  "description": "ChatGPT benzeri arayüz — yerel Ollama ajanları + NVIDIA NIM bulut modelleri",
+  "type": "module",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node --watch server/index.js",
+    "test": "node --test tests/*.test.js",
+    "public": "cross-env PUBLIC_MODE=1 node server/index.js"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "license": "MIT"
+}

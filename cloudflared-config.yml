@@ -1,0 +1,9 @@
+tunnel: 78617abe-b39c-48b5-ad46-7cbc37e7c89d
+credentials-file: /app/tunnel-credentials.json
+
+ingress:
+  - hostname: www.articnc.info
+    service: http://localhost:8787
+  - hostname: articnc.info
+    service: http://localhost:8787
+  - service: http_status:404
